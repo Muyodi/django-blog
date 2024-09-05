@@ -3,4 +3,4 @@ from django.shortcuts import render
 
 # Create your views here.
 def my_blog(request):
-    return HttpResponse("Hello, Blog!")
+    return HttpResponse("Hello, Motor!")
