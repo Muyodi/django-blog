@@ -40,3 +40,17 @@ class Comment(models.Model):
 
     def __str__(self):
         return f"Comment {self.body} by {self.name}"
+
+
+
+class Car(models.Model):
+    MAKE_CHOICES = [
+        ('Toyota', 'Toyota'),
+        ('BMW', 'BMW'),
+        ('Tesla', 'Tesla'),
+    ]
+
+    TRANSMISSION_CHOICES = [
+        ('Manual', 'Manual'),
+        ('Automatic', 'Automatic'),
+    ]
